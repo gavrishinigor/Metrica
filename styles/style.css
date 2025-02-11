@@ -1,6 +1,7 @@
 
 body {
     font-family: "Manrope", serif;
+    color: #121212;
 }
 
 .container {
@@ -54,6 +55,11 @@ body {
     color: white;
 }
 
+.about-us{
+    height: 518px;
+    margin-bottom: 150px;
+}
+
 .about-us__heading {
     display: block;
     padding-bottom: 30px;
@@ -64,11 +70,22 @@ body {
 }
 
 .about-us__description{
-    color: #121212;
-    font-family: Manrope;
+    display: block;
+    margin-bottom: 30px;
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -1.35px;
+}
+
+.view__services{
+    cursor: pointer;
+    border-style: none;
+    display: block;
+    width: 255px;
+    height: 67px;
+    background-color: #AD1818;
+    color: white;
+    border-radius: 5px;
 }
